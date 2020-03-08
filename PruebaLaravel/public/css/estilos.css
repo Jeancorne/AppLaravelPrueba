@@ -1,0 +1,119 @@
+body {
+    background: #F4F6F6;
+}
+
+.rowHeader {
+    text-align: center;
+    background: #424949;
+    color: white;
+    padding: 1%;
+    
+}
+header{
+    width: 95%;
+}
+.rowHeader a{
+    margin-left: 2%;
+}
+.rowHeader a{
+    /* margin-left:20%; */
+    text-decoration: none;
+    color: white;
+}
+.rowHeader span:hover{    
+    color: #CCD1D1;
+}
+
+
+
+.rowFooter {
+    background-color: #CCD1D1;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    padding: 1%;
+    color: black;
+    text-align: center;
+}
+
+.article {
+    padding: 2%;
+    border: solid #D4E6F1 6px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 40px;
+}
+
+.divIngreso {
+    text-align: center;
+}
+.btnIngreso{
+    background: #424949;
+}
+
+.btnIngreso:hover{
+    background: #D5DBDB;
+    color: black;
+}
+
+.btnRegistro{
+    background: #424949;
+}
+
+.btnRegistro:hover{
+    background: #D5DBDB;
+    color: black;
+}
+
+
+
+.head_table th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #dee2e6;
+    width: 23%;
+
+}
+
+.head_table{
+	width: auto;
+    display: -webkit-flex;
+
+}
+.table td, .table th {
+    padding: .75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+    width: 100%;
+}
+
+.head_table tr {
+	display: -webkit-flex;
+    width: 100%;
+}
+.resultados_tabla tr:hover{
+	background: #fc7323;
+	color: white;
+}
+
+.resultados_tabla {
+	display: -webkit-flex;
+    height: 300px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    width: auto;
+    -webkit-flex-flow: row wrap;
+}
+.resultados_tabla tr{
+	display: -webkit-flex;
+	width: 100%;
+	height: 25%;
+}
+
+#tabla_resultados tr td {
+	width: 100%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space:nowrap;
+}
